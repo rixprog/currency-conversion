@@ -70,6 +70,8 @@ width:1.25rem;
 select{
     border:none;
     outline: none;
+    background-color: white;
+    color:black;
 }
 button,input,.select-container,h2,h4{
     width:100%;
