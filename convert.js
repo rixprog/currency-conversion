@@ -5,7 +5,7 @@
 
 let dropdown = document.querySelectorAll('.dropdown select');
 let flag=document.querySelectorAll('.image-container img');
-let currencyValue=document.querySelector('h4');
+let currencyValue=document.querySelector('h3');
 let submit=document.querySelector('.submit');
 let input=document.querySelector('.input');
 let form=document.querySelector('form');
