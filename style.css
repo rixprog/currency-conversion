@@ -5,11 +5,12 @@
 }
 
 body{
-    background-color: bisque;
+    background-color:magenta;
     display:flex;
     justify-content: center;
     align-items: center;
     min-height:100vh;
+    
 }
 
 .container{
@@ -70,6 +71,8 @@ width:1.25rem;
 select{
     border:none;
     outline: none;
+    background-color: white;
+    color:rgba(0,0,0,0.7);
 }
 button,input,.select-container,h2,h4{
     width:100%;
@@ -104,7 +107,9 @@ h2,h4{
     color:rgba(0,0,0,0.7);
     font-size:3vmin;
 }
-
+h2{
+    font-size: 1.4rem;
+}
 .image-container{
     padding-left: 0.5rem;
 }
