@@ -66,10 +66,12 @@ updateCurrencyValue();
 dropdown[0].addEventListener('change',()=>{
     flagUpdate();
     updateCurrencyValue();
+    convert();
 });
 dropdown[1].addEventListener('change',()=>{
     flagUpdate();
     updateCurrencyValue();
+    convert();
 });
 
 function convert(){
@@ -84,6 +86,7 @@ function convert(){
 }
 
 input.addEventListener('input',convert);
+
 
 
 form.addEventListener('keydown',(event)=>{
